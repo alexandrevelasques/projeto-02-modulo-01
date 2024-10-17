@@ -26,8 +26,40 @@ body {
     color: #FAF9FA;
 }
 
-.container-flex {
+.container-mid {
     padding: 20px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background:  linear-gradient(to bottom, #641F70, #1E0C21);
+}
+
+.form-title {
+    color: #FAF9FA;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    
+}
+
+input {
+
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 15px;
+    width: 75%;
+}
+
+input:focus {
+    outline: none;
 }
 
 .footer {
