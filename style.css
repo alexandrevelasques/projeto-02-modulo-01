@@ -5,7 +5,7 @@ body {
 
 .container {
     margin: auto;
-    width: 700px;
+    width: 750px;
     text-align: center;
     border-radius: 10px;
     background:  linear-gradient(to bottom, #210D24, #631F6F);
@@ -24,11 +24,12 @@ body {
 
 .header-text {
     color: #FAF9FA;
+    font-size: 18px;
 }
 
 .container-mid {
     padding: 20px;
-    width: 600px;
+    width: 650px;
     margin: auto;
     border-radius: 10px;
     background:  linear-gradient(to bottom, #641F70, #1E0C21);
@@ -45,6 +46,7 @@ body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
     
 }
 
@@ -62,6 +64,57 @@ input:focus {
     outline: none;
 }
 
+.poll-flex {
+    color: #FAF9FA;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.square-1 {
+    width: 200px;
+    height: 310px;
+    background:  linear-gradient(to bottom, #2638DC, #342988);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.square-2 {
+    width: 90%;
+    height: 90%;
+    background:  linear-gradient(to bottom, #3C5CEE, #71CBFE);
+
+}
+
+.square-title {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.square-img {
+    padding: -10px;
+}
+
+button {
+    width: 60%;
+    padding: 0.9rem;
+    color: #FAF9FA;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1D0C20;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
 .footer {
     padding: 20px;
+}
+
+.footer {
+    color: #FAF9FA;
+    font-size: 12px;
 }
